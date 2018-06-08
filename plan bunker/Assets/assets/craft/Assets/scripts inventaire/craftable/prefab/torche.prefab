@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 114016425342984276}
   - component: {fileID: 114641282046963130}
   - component: {fileID: 114971459780619194}
-  - component: {fileID: 114555820838234202}
+  - component: {fileID: 114597693817063210}
   m_Layer: 5
   m_Name: torche
   m_TagString: ItemIcon
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114555820838234202
+--- !u!114 &114597693817063210
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1306075614861282}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f24e2afe1594984ebfa82c445cbb89c, type: 3}
+  m_Script: {fileID: 11500000, guid: 781a0db639401954394bd466bf6fd105, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   quantity: 1

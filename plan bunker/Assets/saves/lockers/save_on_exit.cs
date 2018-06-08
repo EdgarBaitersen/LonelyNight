@@ -43,6 +43,7 @@ public class save_on_exit : MonoBehaviour
 			recreation(k.l[i]);
 			i += 1;
 		}
+		
 
 	}
 
@@ -54,6 +55,10 @@ public class save_on_exit : MonoBehaviour
 		MyObject.transform.localScale = new Vector3(1, 1, 1);
 		MyObject.SetActive(true); //Activate the GameObject
 		MyObject.name = GetName(l.Item1);
+		if (l.Item3 > 1)
+		{
+			MyObject.transform.GetChild(0).GetComponent<Text>().text = l.Item3 + "";
+		}
 
 		return MyObject;
 
