@@ -18,6 +18,6 @@ public class lockers : MonoBehaviour {
 	public void OnMouseDown()
 	{
 		inv.SetActive(true);
-		Debug.Log(34);
+		
 	}
 }

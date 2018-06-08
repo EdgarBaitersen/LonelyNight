@@ -161,6 +161,7 @@
           <e p="lockers" t="Include">
             <e p="coffre.cs" t="Include" />
             <e p="dataManager_coffre.cs" t="Include" />
+            <e p="save_on_exit.cs" t="Include" />
           </e>
           <e p="safe" t="Include">
             <e p="DataManagment_safe.cs" t="Include" />

@@ -54,7 +54,7 @@ public class gestionTempe : MonoBehaviour
 		uni.tempe = int.Parse(tempe.text);
 		uni.wood_fire = int.Parse(feu.text);
 		DataManager_Fire.save(uni);
-		Debug.Log(32);
+		
 	}
 
 	public void loadData()

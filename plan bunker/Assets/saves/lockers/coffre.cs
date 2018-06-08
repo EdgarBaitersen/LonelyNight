@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class coffre : MonoBehaviour {
 
@@ -12,10 +14,10 @@ public class coffre : MonoBehaviour {
 		BOW,
 		ARROW,
 	}
+	[Serializable]
 	public class caufre
 	{
-		public int quantity;
-		public int slot;
-		public Type type;
+		public List<Tuple<coffre.Type, int , int>> l = new List<Tuple<Type, int, int>>();
+		//(type,slot,quantity)
 	}
 }
