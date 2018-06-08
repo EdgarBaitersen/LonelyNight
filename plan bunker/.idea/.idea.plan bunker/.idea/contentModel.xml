@@ -174,7 +174,6 @@
             <e p="save_on_exit.cs" t="Include" />
           </e>
           <e p="safe" t="Include">
-            <e p="anyway.cs" t="Include" />
             <e p="DataManagment_safe.cs" t="Include" />
             <e p="upgrades.cs" t="Include" />
           </e>

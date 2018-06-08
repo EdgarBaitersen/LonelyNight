@@ -6,15 +6,22 @@ using UnityEngine.UI;
 public class upgrade : MonoBehaviour
 {
 	public text_for_upgrade script;
-
 	public Button amelioration;
+
+	private int bucheron_rate;
+	private int transport_int;
+	private int chasseur_rate;
+	private int endurance_rate;
+	private int mineur_rate;
 	// Use this for initialization
 	void Start () {
-		
+		//upgrades.Upgarde l = new upgrades.Upgarde();
+		load_Up();
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		
 		if (script.type == "Bucheron")
 		{
 			if (int.Parse(script.bois.text) < 1000 || int.Parse(script.pierre.text) < 850)
@@ -75,6 +82,7 @@ public class upgrade : MonoBehaviour
 				amelioration.onClick.AddListener(click_Chasseur);
 			}
 		}
+		save_Up();
 	}
 	public void click_bucheron()
 	{
@@ -82,7 +90,8 @@ public class upgrade : MonoBehaviour
 		{
 			script.bois.text = (int.Parse(script.bois.text) - 1000) + "";
 			script.pierre.text = int.Parse(script.pierre.text) - 850 + "";
-			Debug.Log(21);
+			bucheron_rate += 10;
+
 		}
 	}
 	public void click_Mineur()
@@ -91,7 +100,8 @@ public class upgrade : MonoBehaviour
 		{
 			script.bois.text = (int.Parse(script.bois.text) - 1000) + "";
 			script.pierre.text = int.Parse(script.pierre.text) - 850 + "";
-			
+			mineur_rate += 10;
+
 		}
 		
 	}
@@ -101,6 +111,7 @@ public class upgrade : MonoBehaviour
 		{
 			script.bois.text = (int.Parse(script.bois.text) - 1000) + "";
 			script.pierre.text = int.Parse(script.pierre.text) - 850 + "";
+			chasseur_rate += 10;
 		}
 	}
 	public void click_Endurance()
@@ -109,6 +120,7 @@ public class upgrade : MonoBehaviour
 		{
 			script.bois.text = (int.Parse(script.bois.text) - 1000) + "";
 			script.pierre.text = int.Parse(script.pierre.text) - 1000 + "";
+			endurance_rate += 10;
 		}
 	}
 	public void click_Transport()
@@ -117,6 +129,28 @@ public class upgrade : MonoBehaviour
 		{
 			script.bois.text = (int.Parse(script.bois.text) - 1000) + "";
 			script.pierre.text = int.Parse(script.pierre.text) - 1000 + "";
+			transport_int += 20;
 		}
+	}
+
+	public void save_Up()
+	{
+		upgrades.Upgarde k = new upgrades.Upgarde();
+		k.bucheron = bucheron_rate;
+		k.endurance = endurance_rate;
+		k.chasseur = chasseur_rate;
+		k.mineur = chasseur_rate;
+		k.transport = chasseur_rate;
+		DataManagment_safe.save(k);
+	}
+
+	public void load_Up()
+	{
+		upgrades.Upgarde k = DataManagment_safe.load();
+		bucheron_rate = k.bucheron;
+		mineur_rate = k.mineur;
+		endurance_rate = k.endurance;
+		transport_int = k.transport;
+		chasseur_rate = k.chasseur;
 	}
 }

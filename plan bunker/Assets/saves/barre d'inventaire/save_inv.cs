@@ -44,8 +44,6 @@ public class save_inv : MonoBehaviour {
 			recreation(k.l[i]);
 			i += 1;
 		}
-		
-
 	}
 
 	public GameObject recreation(Tuple<coffre.Type, int, int> l)

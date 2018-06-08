@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,8 +7,13 @@ public class upgrades : MonoBehaviour
 {
 
 	// Use this for initialization
-	public class MyClass
+	[Serializable]
+	public class Upgarde
 	{
-		
+		public int bucheron;
+		public int mineur;
+		public int endurance;
+		public int chasseur;
+		public int transport;
 	}
 }

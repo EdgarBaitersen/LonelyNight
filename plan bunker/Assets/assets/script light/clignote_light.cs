@@ -18,7 +18,6 @@ public class clignote_light : MonoBehaviour
 	// Use this for initialization
 	void Start () {
 		var l = lampe.GetType().GetProperties();
-		Debug.Log(l);
 		source = GetComponent<AudioSource>();
 		
 	}
