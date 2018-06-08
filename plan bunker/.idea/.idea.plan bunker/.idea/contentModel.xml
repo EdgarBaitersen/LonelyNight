@@ -158,8 +158,14 @@
             <e p="class_backpack.cs" t="Include" />
             <e p="DataManagar_backpack.cs" t="Include" />
           </e>
+          <e p="barre d'inventaire" t="Include">
+            <e p="DataManager_inventory.cs" t="Include" />
+            <e p="inventory.cs" t="Include" />
+            <e p="save_inv.cs" t="Include" />
+          </e>
           <e p="fire" t="Include">
             <e p="DataManager_Fire.cs" t="Include" />
+            <e p="decrease_anyway.cs" t="Include" />
             <e p="unique.cs" t="Include" />
           </e>
           <e p="lockers" t="Include">
@@ -168,6 +174,7 @@
             <e p="save_on_exit.cs" t="Include" />
           </e>
           <e p="safe" t="Include">
+            <e p="anyway.cs" t="Include" />
             <e p="DataManagment_safe.cs" t="Include" />
             <e p="upgrades.cs" t="Include" />
           </e>

@@ -4597,6 +4597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 342d3cdfce8fbc94e836bf7e02c5cb3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cube: {fileID: 1505683081}
   feu: {fileID: 374862110}
   tempe: {fileID: 686166917}
 --- !u!114 &1505683087

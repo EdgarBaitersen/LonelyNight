@@ -6105,10 +6105,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1419669952}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 100b0373494cf6948a3e17d02ef25188, type: 3}
+  m_Script: {fileID: 11500000, guid: 97a3dc1c56f0f544a9394e4e4bcde96e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alert: {fileID: 0}
+  torche: {fileID: 1306075614861282, guid: 7d45c10415ceadb4cbc969ef8569fd67, type: 2}
+  map: {fileID: 1712671777363552, guid: d199370a68249ea489d523e4b3321fbd, type: 2}
+  arrow: {fileID: 1295182342987100, guid: e9bb7bb196ccc8b489d11130dff3cc91, type: 2}
+  bow: {fileID: 1778778317893850, guid: 5d696a0df795d6e4caf6c06cf4ef3f03, type: 2}
+  spear: {fileID: 1584319580392452, guid: 97cf4bb208a7c0c42b8be4982bb45af9, type: 2}
+  coffre_inventaire: {fileID: 1725141700}
 --- !u!1 &1461562146
 GameObject:
   m_ObjectHideFlags: 0

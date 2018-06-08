@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class gestionTempe : MonoBehaviour
 {
 
+	public GameObject cube;
 	public Text feu;
 	public Text tempe;
 	float deltaT = 20.0F;
