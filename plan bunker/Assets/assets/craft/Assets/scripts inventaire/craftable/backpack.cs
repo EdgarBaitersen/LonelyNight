@@ -11,9 +11,11 @@ public class backpack : MonoBehaviour {
 	public Text pierre_cout;
 	public GameObject message;
 	AudioSource audio;
+	private bool has_BP;
 
 	// Use this for initialization
 	void Start () {
+		load_Has_Backpack();
 		audio = GetComponent<AudioSource>();
 	}
 	
@@ -31,6 +33,8 @@ public class backpack : MonoBehaviour {
 			bois.text = bois_tot + "";
 			pierre.text = pierre_tot + "";
 			audio.Play();
+			has_BP = true;
+			save_Has_backpack();
 			message.SetActive(true);
 		}
 		else
@@ -55,5 +59,18 @@ public class backpack : MonoBehaviour {
 			i += 1;
 		}
 		return null;
+	}
+
+	public void save_Has_backpack()
+	{
+		class_backpack.Backpack sac = new class_backpack.Backpack();
+		sac.has_backpack = has_BP;
+		DataManagar_backpack.save(sac);
+	}
+
+	public void load_Has_Backpack()
+	{
+		class_backpack.Backpack sac = DataManagar_backpack.load();
+		has_BP = sac.has_backpack;
 	}
 }

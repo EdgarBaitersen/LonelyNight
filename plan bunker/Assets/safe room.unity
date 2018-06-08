@@ -2038,7 +2038,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ici vous pouvez am\xE9liorer votre bunker en d\xE9bloquant des salles supl\xE9mentaires."
+  m_Text: "Ici vous pouvez am\xE9liorer votre personnage en lui octroyant de nouvelles
+    capacit\xE9es."
 --- !u!222 &466026975
 CanvasRenderer:
   m_ObjectHideFlags: 0

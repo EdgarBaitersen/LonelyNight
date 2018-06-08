@@ -154,6 +154,10 @@
           </e>
         </e>
         <e p="saves" t="Include">
+          <e p="backpack" t="Include">
+            <e p="class_backpack.cs" t="Include" />
+            <e p="DataManagar_backpack.cs" t="Include" />
+          </e>
           <e p="fire" t="Include">
             <e p="DataManager_Fire.cs" t="Include" />
             <e p="unique.cs" t="Include" />

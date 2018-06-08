@@ -22,9 +22,10 @@ public class  input : MonoBehaviour
 	private void SubmitInput(string arg0)
 	{
 		string currentText = output.text;
-		if (int.Parse(bois.text) > int.Parse(arg0))
+		if (int.Parse(bois.text) >= int.Parse(arg0))
 		{
 			bois.text = int.Parse(bois.text) - int.Parse(arg0) + "";
+			Debug.Log(bois.text);
 		}
 		else
 		{
