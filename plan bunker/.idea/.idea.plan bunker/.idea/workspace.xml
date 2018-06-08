@@ -11,7 +11,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="DataManager_inventory.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DataManager_inventory.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/saves/barre d'inventaire/DataManager_inventory.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
@@ -26,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="save_inv.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="save_inv.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/saves/barre d'inventaire/save_inv.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
@@ -350,12 +350,12 @@
       <workItem from="1528420560733" duration="152000" />
       <workItem from="1528420919104" duration="4735000" />
       <workItem from="1528426412653" duration="6448000" />
-      <workItem from="1528477656235" duration="13190000" />
+      <workItem from="1528477656235" duration="13444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78059000" />
+    <option name="totallyTimeSpent" value="78313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -854,19 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/saves/barre d'inventaire/DataManager_inventory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="82" lean-forward="false" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
-          <folding>
-            <marker date="1528495771610" expanded="true" signature="6:163" ph="..." />
-            <marker date="1528495771610" expanded="true" signature="216:783" ph="{...}" />
-            <marker date="1528495771610" expanded="true" signature="258:465" ph="{...}" />
-            <marker date="1528495771610" expanded="true" signature="505:781" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/saves/lockers/save_on_exit.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -945,6 +932,19 @@
             <marker date="1528496734916" expanded="true" signature="3273:3308" ph="{...}" />
             <marker date="1528496734916" expanded="true" signature="3328:3363" ph="{...}" />
             <marker date="1528496734916" expanded="true" signature="3385:3422" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/saves/barre d'inventaire/DataManager_inventory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="82" lean-forward="false" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
+          <folding>
+            <marker date="1528495771610" expanded="true" signature="6:163" ph="..." />
+            <marker date="1528495771610" expanded="true" signature="216:783" ph="{...}" />
+            <marker date="1528495771610" expanded="true" signature="258:465" ph="{...}" />
+            <marker date="1528495771610" expanded="true" signature="505:781" ph="{...}" />
           </folding>
         </state>
       </provider>
