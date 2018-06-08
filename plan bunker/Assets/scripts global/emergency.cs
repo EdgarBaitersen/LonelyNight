@@ -6,19 +6,20 @@ public class emergency : MonoBehaviour
 {
 
 	public alert_light alert;
-
-	public gestionTempe tempe;
 	// Use this for initialization
 	void Start () {
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		if (int.Parse(tempe.tempe.text) < 0)
+	void Update ()
+	{
+		unique.Fire_Data k = DataManager_Fire.load();
+		
+		if ( k.tempe < 0)
 		{
 			alert.is_emergency = true;
-			Debug.Log(32);
+			
 		}
 	}
 }

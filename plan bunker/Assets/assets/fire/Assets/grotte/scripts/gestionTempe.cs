@@ -9,10 +9,10 @@ public class gestionTempe : MonoBehaviour
 	public Text feu;
 	public Text tempe;
 	float deltaT = 20.0F;
-	
 	// Use this for initialization
 	void Start () {
-		
+		//unique.Fire_Data k = new unique.Fire_Data();
+		loadData();
 	}
 	
 	// Update is called once per frame
@@ -23,6 +23,8 @@ public class gestionTempe : MonoBehaviour
 			deltaT = 10.0F;
 		}
 		deltaT -= Time.deltaTime;
+		saveData();
+		
 		
 	}
 
@@ -34,6 +36,7 @@ public class gestionTempe : MonoBehaviour
 		{
 			nbr_tempe -= 1;
 			tempe.text = nbr_tempe.ToString();
+			
 		}
 		else
 		{
@@ -42,7 +45,23 @@ public class gestionTempe : MonoBehaviour
 				nbr_tempe += 1;
 				tempe.text = nbr_tempe.ToString();
 			}
-			
 		}
+	}
+
+	public void saveData()
+	{
+		unique.Fire_Data uni = new unique.Fire_Data();
+		uni.tempe = int.Parse(tempe.text);
+		uni.wood_fire = int.Parse(feu.text);
+		DataManager_Fire.save(uni);
+		Debug.Log(32);
+	}
+
+	public void loadData()
+	{
+		unique.Fire_Data data = DataManager_Fire.load();
+		tempe.text = data.tempe + "";
+		feu.text = data.wood_fire + "";
+
 	}
 }

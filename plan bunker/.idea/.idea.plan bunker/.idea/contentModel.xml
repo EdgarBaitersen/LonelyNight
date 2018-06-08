@@ -1,14 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\lucas\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_plan bunker.1723997431.00" t="ExcludeRecursive" />
-    <e p="C:\Users\lucas\OneDrive\Documents\GitHub\soutenance_2\bunker\plan bunker" t="IncludeFlat">
+    <e p="C:\Users\lucas\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_plan bunker.-167111385.00" t="ExcludeRecursive" />
+    <e p="C:\Users\lucas\OneDrive\Documents\Github--Lulu\LonelyNight\plan bunker" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Assets" t="Include">
+          <e p="craft" t="Include">
+            <e p="Assets" t="Include">
+              <e p="BlackSmith_Tools" t="Include">
+                <e p="Prefab" t="Include">
+                  <e p="ClickToOpen.cs" t="Include" />
+                </e>
+              </e>
+              <e p="scripts inventaire" t="Include">
+                <e p="craftable" t="Include">
+                  <e p="backpack.cs" t="Include" />
+                  <e p="Craft.cs" t="Include" />
+                  <e p="craft_arrow.cs" t="Include" />
+                  <e p="craft_bow.cs" t="Include" />
+                  <e p="craft_map.cs" t="Include" />
+                  <e p="craft_spear.cs" t="Include" />
+                </e>
+                <e p="donne tout les script" t="Include">
+                  <e p="InventoryController_craft.cs" t="Include" />
+                  <e p="Item_craft.cs" t="Include" />
+                  <e p="UIManager_craft.cs" t="Include" />
+                </e>
+                <e p="table.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="fire" t="Include">
+            <e p="Assets" t="Include">
+              <e p="grotte" t="Include">
+                <e p="ClickToOpen_fire.cs" t="Include" />
+                <e p="donne tout les script" t="Include">
+                  <e p="InventoryController_fire.cs" t="Include" />
+                  <e p="item_fire.cs" t="Include" />
+                  <e p="UIManager_fire.cs" t="Include" />
+                </e>
+                <e p="Plugins" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="JetBrains" t="Include">
+                      <e p="Unity3DRider.cs" t="Include" />
+                    </e>
+                  </e>
+                </e>
+                <e p="scripts" t="Include">
+                  <e p="gestionFeu.cs" t="Include" />
+                  <e p="gestionTempe.cs" t="Include" />
+                  <e p="input.cs" t="Include" />
+                  <e p="osef essayes" t="Include">
+                    <e p="Depo.cs" t="Include" />
+                    <e p="gestion.cs" t="Include" />
+                    <e p="inventaire.cs" t="Include" />
+                    <e p="unWood.cs" t="Include" />
+                    <e p="wood.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="PinwheelFantasyEffectFreePack1" t="Include">
+                <e p="README 1.txt" t="Include" />
+                <e p="scripts" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="CompileLogger.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="script light" t="Include">
+            <e p="alert_light.cs" t="Include" />
+            <e p="clignote_light.cs" t="Include" />
+          </e>
+          <e p="storage" t="Include">
+            <e p="Assets" t="Include">
+              <e p="campFire.cs" t="Include" />
+              <e p="donne tout les script" t="Include">
+                <e p="InventoryController_storage.cs" t="Include" />
+                <e p="Item_storage.cs" t="Include" />
+                <e p="UIManager_storage.cs" t="Include" />
+              </e>
+              <e p="Locker_room_props" t="Include">
+                <e p="readme.txt" t="Include" />
+              </e>
+              <e p="lockers.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="BackToSurface.cs" t="Include" />
+        <e p="Customizable_Furnture" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Customizable_Furniture" t="Include">
+              <e p="EditorCleanUpAll.cs" t="Include" />
+              <e p="EditorOptionsDisplay.cs" t="Include" />
+              <e p="EditorSimpleSwitchMaterial.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Readme" t="Include">
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="Source" t="Include">
+            <e p="scripts" t="Include">
+              <e p="CleanUpAll.cs" t="Include" />
+              <e p="Clock" t="Include">
+                <e p="AnalogicClock.cs" t="Include" />
+                <e p="ClockTimer.cs" t="Include" />
+                <e p="DigitalClock.cs" t="Include" />
+                <e p="DigitalClockValue.cs" t="Include" />
+              </e>
+              <e p="DisplayFrame.cs" t="Include" />
+              <e p="DisplaySelectedObject.cs" t="Include" />
+              <e p="OptionsDisplay.cs" t="Include" />
+              <e p="OptionsDisplaySaveVar.cs" t="Include" />
+              <e p="PlayVideo.cs" t="Include" />
+              <e p="SimpleSwitchMaterial.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="GoToScene.cs" t="Include" />
+        <e p="Materials" t="Include">
+          <e p="UI-Default-No-Alpha.shader" t="Include" />
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include">
+              <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ProjectSettings" t="Include">
+          <e p="ProjectVersion.txt" t="Include" />
+        </e>
+        <e p="safe" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="Jupiter" t="Include">
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+          </e>
+          <e p="scripts" t="Include">
+            <e p="text_for_upgrade.cs" t="Include" />
+            <e p="upgrade.cs" t="Include" />
+          </e>
+          <e p="Textures and Sprites" t="Include">
+            <e p="SF UI" t="Include">
+              <e p="Background" t="Include">
+                <e p="LICENSE.txt" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="saves" t="Include">
+          <e p="fire" t="Include">
+            <e p="DataManager_Fire.cs" t="Include" />
+            <e p="unique.cs" t="Include" />
+          </e>
+          <e p="lockers" t="Include">
+            <e p="coffre.cs" t="Include" />
+            <e p="dataManager_coffre.cs" t="Include" />
+          </e>
+          <e p="safe" t="Include">
+            <e p="DataManagment_safe.cs" t="Include" />
+            <e p="upgrades.cs" t="Include" />
+          </e>
+        </e>
+        <e p="scripts global" t="Include">
+          <e p="emergency.cs" t="Include" />
+        </e>
+      </e>
       <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
       <e p="plan bunker.sln" t="IncludeFlat" />
-      <e p="Temp" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
   </component>
 </project>

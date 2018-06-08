@@ -4513,7 +4513,6 @@ GameObject:
   - component: {fileID: 1505683087}
   - component: {fileID: 1505683086}
   - component: {fileID: 1505683088}
-  - component: {fileID: 1505683089}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -4625,19 +4624,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bois: {fileID: 374862110}
   fire: {fileID: 69176341}
---- !u!114 &1505683089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1505683081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 100b0373494cf6948a3e17d02ef25188, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  alert: {fileID: 0}
-  tempe: {fileID: 0}
 --- !u!4 &1563866480 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000011638409672, guid: 6ac31c8ccc3387f4e9cb75060bd4ff69,
