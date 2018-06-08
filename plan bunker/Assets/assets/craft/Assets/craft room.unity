@@ -2341,7 +2341,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 448937531}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3e54bee3f4469a4e92b2e0f870f0ec5, type: 3}
+  m_Script: {fileID: 11500000, guid: 8bb2aceec3ca99d4e9bc1892a17841bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 0}
@@ -3435,9 +3435,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 726309473}
-  - component: {fileID: 726309475}
   - component: {fileID: 726309474}
-  - component: {fileID: 726309476}
   m_Layer: 5
   m_Name: Upgrade.I
   m_TagString: Untagged
@@ -3468,36 +3466,12 @@ RectTransform:
 --- !u!114 &726309474
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114940657530192396, guid: 3d22c8a21cdb1814e8e8c48f37fc34e7,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 726309472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cfed0398802e477bb0ea6ab10d96869, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &726309475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114154654246142796, guid: 3d22c8a21cdb1814e8e8c48f37fc34e7,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 726309472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &726309476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 726309472}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b33030f49fbd2214fa33be163f309b39, type: 3}
+  m_Script: {fileID: 11500000, guid: 001f7a03204661a48b22210318e37632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &730945244
