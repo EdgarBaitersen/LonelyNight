@@ -633,7 +633,7 @@ PlayerSettings:
   cloudServicesEnabled:
     UNet: 1
   facebookSdkVersion: 7.9.4
-  apiCompatibilityLevel: 2
+  apiCompatibilityLevel: 3
   cloudProjectId: 92beaa8e-a494-48c7-84f8-b936dcda2f11
   projectName: plan bunker
   organizationId: werewg

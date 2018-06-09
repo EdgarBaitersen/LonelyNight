@@ -28,15 +28,15 @@ public class save_inv : MonoBehaviour {
 	public void saveOnExit()
 	{
 		
-		coffre.caufre k = new coffre.caufre();
+		inventory.invent k = new inventory.invent();
 		k.l = list();
-		dataManager_coffre.save(k);
+		DataManager_inventory.save(k);
 		
 	}
 
 	public void loadOnExit()
 	{
-		coffre.caufre k = dataManager_coffre.load();
+		inventory.invent k = DataManager_inventory.load();
 		int i = 0;
 		while (i < k.l.Count)
 		{
@@ -45,7 +45,7 @@ public class save_inv : MonoBehaviour {
 		}
 	}
 
-	public GameObject recreation(Tuple<coffre.Type, int, int> l)
+	public GameObject recreation(Tuple<inventory.Type, int, int> l)
 	{
 		GameObject MyObject = Instantiate(Getprefab(l.Item1)) ; //Create the GameObject
 		MyObject.transform.position = coffre_inventaire.transform.GetChild(l.Item2).transform.position;
@@ -62,9 +62,9 @@ public class save_inv : MonoBehaviour {
 
 	}
 
-	public List<Tuple<coffre.Type, int, int>> list()
+	public List<Tuple<inventory.Type, int, int>> list()
 	{
-		List<Tuple<coffre.Type, int , int>> l = new List<Tuple<coffre.Type, int, int>>();
+		List<Tuple<inventory.Type, int , int>> l = new List<Tuple<inventory.Type, int, int>>();
 		int i = 0;
 		while (i < coffre_inventaire.transform.childCount)
 		{
@@ -79,8 +79,8 @@ public class save_inv : MonoBehaviour {
 				{
 					quantity = int.Parse(coffre_inventaire.transform.GetChild(i).GetChild(0).GetChild(0).GetComponent<Text>().text);
 				}
-				coffre.Type type = Gettype(coffre_inventaire.transform.GetChild(i).GetChild(0).name);
-				Tuple<coffre.Type, int, int> myTuple = new Tuple<coffre.Type, int, int>(type, i, quantity);
+				inventory.Type type = Gettype(coffre_inventaire.transform.GetChild(i).GetChild(0).name);
+				Tuple<inventory.Type, int, int> myTuple = new Tuple<inventory.Type, int, int>(type, i, quantity);
 				l.Add(myTuple);
 			}
 			i += 1;
@@ -89,76 +89,76 @@ public class save_inv : MonoBehaviour {
 		return l;
 	}
 
-	public GameObject Getprefab(coffre.Type type)
+	public GameObject Getprefab(inventory.Type type)
 	{
-		if (type == coffre.Type.SPEAR)
+		if (type == inventory.Type.SPEAR)
 		{
 			return spear;
 		}
-		if (type == coffre.Type.TORCH)
+		if (type == inventory.Type.TORCH)
 		{
 			return torche;
 		}
-		if (type == coffre.Type.MAP)
+		if (type == inventory.Type.MAP)
 		{
 			return map;
 		}
-		if (type == coffre.Type.BOW)
+		if (type == inventory.Type.BOW)
 		{
 			return bow;
 		}
-		if (type == coffre.Type.ARROW)
+		if (type == inventory.Type.ARROW)
 		{
 			return arrow;
 		}
 		throw new NullReferenceException();
 	}
-	public string GetName(coffre.Type type)
+	public string GetName(inventory.Type type)
 	{
-		if (type == coffre.Type.SPEAR)
+		if (type == inventory.Type.SPEAR)
 		{
 			return "spear";
 		}
-		if (type == coffre.Type.TORCH)
+		if (type == inventory.Type.TORCH)
 		{
 			return "torche";
 		}
-		if (type == coffre.Type.MAP)
+		if (type == inventory.Type.MAP)
 		{
 			return "map";
 		}
-		if (type == coffre.Type.BOW)
+		if (type == inventory.Type.BOW)
 		{
 			return "bow";
 		}
-		if (type == coffre.Type.ARROW)
+		if (type == inventory.Type.ARROW)
 		{
 			return "arrow";
 		}
 		throw new NullReferenceException();
 	}
 
-	public coffre.Type Gettype(string str)
+	public inventory.Type Gettype(string str)
 	{
 		if (str == "spear")
 		{
-			return coffre.Type.SPEAR;
+			return inventory.Type.SPEAR;
 		}
 		if (str == "torche")
 		{
-			return coffre.Type.TORCH;
+			return inventory.Type.TORCH;
 		}
 		if (str == "map")
 		{
-			return coffre.Type.MAP;
+			return inventory.Type.MAP;
 		}
 		if (str == "bow")
 		{
-			return coffre.Type.BOW;
+			return inventory.Type.BOW;
 		}
 		if (str == "arrow")
 		{
-			return coffre.Type.ARROW;
+			return inventory.Type.ARROW;
 		}
 		throw new NullReferenceException();
 	}
