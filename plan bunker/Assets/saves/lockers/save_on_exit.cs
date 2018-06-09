@@ -58,7 +58,9 @@ public class save_on_exit : MonoBehaviour
 		if (l.Item3 > 1)
 		{
 			MyObject.transform.GetChild(0).GetComponent<Text>().text = l.Item3 + "";
+			
 		}
+		MyObject.GetComponent<item_fire>().quantity = l.Item3;
 
 		return MyObject;
 
