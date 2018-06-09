@@ -19,6 +19,10 @@ public class emergency : MonoBehaviour
 		if ( k.tempe < 0)
 		{
 			alert.is_emergency = true;
+			//add dmg
+			//load le fichier content les hp
+			//soustraire les hp 
+			//save
 			
 		}
 	}

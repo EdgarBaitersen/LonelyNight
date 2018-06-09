@@ -38,8 +38,6 @@ GameObject:
   - component: {fileID: 224185518733354964}
   - component: {fileID: 222953462594066078}
   - component: {fileID: 114560739971091890}
-  - component: {fileID: 114428870328306972}
-  - component: {fileID: 114939655789937096}
   - component: {fileID: 114005018133753590}
   m_Layer: 5
   m_Name: spear
@@ -93,17 +91,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
---- !u!114 &114428870328306972
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1584319580392452}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114560739971091890
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -131,18 +118,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114939655789937096
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1584319580392452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca0c0d9bcb0344defa81d3fb394a7ae2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  quantity: 1
 --- !u!222 &222432418943989740
 CanvasRenderer:
   m_ObjectHideFlags: 1

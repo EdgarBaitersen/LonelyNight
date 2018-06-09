@@ -30,7 +30,6 @@ public class save_inv : MonoBehaviour {
 		
 		coffre.caufre k = new coffre.caufre();
 		k.l = list();
-		Debug.Log(k.l.Count);
 		dataManager_coffre.save(k);
 		
 	}
@@ -58,7 +57,7 @@ public class save_inv : MonoBehaviour {
 		{
 			MyObject.transform.GetChild(0).GetComponent<Text>().text = l.Item3 + "";
 		}
-
+		MyObject.GetComponent<item_fire>().quantity = l.Item3;
 		return MyObject;
 
 	}

@@ -21,9 +21,7 @@ GameObject:
   - component: {fileID: 224040903983587568}
   - component: {fileID: 222647360132779828}
   - component: {fileID: 114248990590327462}
-  - component: {fileID: 114962013770617112}
-  - component: {fileID: 114027827281907100}
-  - component: {fileID: 114581706388212450}
+  - component: {fileID: 114108639912890476}
   m_Layer: 5
   m_Name: map
   m_TagString: ItemIcon
@@ -48,7 +46,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &114027827281907100
+--- !u!114 &114108639912890476
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -56,7 +54,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1712671777363552}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca0c0d9bcb0344defa81d3fb394a7ae2, type: 3}
+  m_Script: {fileID: 11500000, guid: 781a0db639401954394bd466bf6fd105, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   quantity: 1
@@ -120,29 +118,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114581706388212450
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1712671777363552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f24e2afe1594984ebfa82c445cbb89c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  quantity: 1
---- !u!114 &114962013770617112
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1712671777363552}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!222 &222647360132779828
 CanvasRenderer:
   m_ObjectHideFlags: 1

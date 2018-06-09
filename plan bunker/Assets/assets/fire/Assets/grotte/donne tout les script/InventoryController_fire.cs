@@ -20,9 +20,9 @@ public class InventoryController_fire : MonoBehaviour {
 		raycastResults = new List<RaycastResult>();
 
         //set the Cancel button
-        transform.Find("Background/Buttons/Cancel").GetComponent<Button>().onClick.AddListener(() => {
+/*        transform.Find("Background/Buttons/Cancel").GetComponent<Button>().onClick.AddListener(() => {
             StartCoroutine(ToggleOff());
-        });
+        });*/
 	}
 
     IEnumerator ToggleOff() {

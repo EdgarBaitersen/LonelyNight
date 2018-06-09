@@ -31,7 +31,7 @@ public class UIManager_fire : MonoBehaviour {
 
 		//Quest Info
 		questInfo = canvas.Find("Quest Info");
-		questInfoContent = questInfo.Find("Background/Info/Viewport/Content");
+	  	/*questInfoContent = questInfo.Find("Background/Info/Viewport/Content");
 		questInfoAcceptButton = questInfo.Find("Background/Buttons/Accept").GetComponent<Button>();
 		questInfoCompleteButton = questInfo.Find("Background/Buttons/Complete").GetComponent<Button>();
 
@@ -49,7 +49,7 @@ public class UIManager_fire : MonoBehaviour {
 		questBookCancelButton = questBook.Find("Background/Buttons/Cancel").GetComponent<Button>();
 		questBookCancelButton.onClick.AddListener(() => {
             StartCoroutine(ToggleOff(questInfo.gameObject));
-        });
+        });*/ 
 
 		//Level Up Text
 		levelUpText = canvas.Find("LevelUp_Text");
