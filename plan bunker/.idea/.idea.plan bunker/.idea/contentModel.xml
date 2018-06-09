@@ -136,11 +136,6 @@
           <e p="ProjectVersion.txt" t="Include" />
         </e>
         <e p="safe" t="Include">
-          <e p="Fonts" t="Include">
-            <e p="Jupiter" t="Include">
-              <e p="LICENSE.txt" t="Include" />
-            </e>
-          </e>
           <e p="scripts" t="Include">
             <e p="text_for_upgrade.cs" t="Include" />
             <e p="upgrade.cs" t="Include" />
